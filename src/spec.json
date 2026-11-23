@@ -104,7 +104,7 @@
         [
           "Lumo-IT-014",
           "Windows 10",
-          "CPU non verificata",
+          "Intel Core i5-8500 T0:03:00Z FINAL 代.",
           "8 GB",
           "Da verificare",
           "Alta",
@@ -348,5 +348,15 @@
   "theme": {
     "palette": "blu-istituzionale",
     "fonts": "istituzionale"
-  }
+  },
+  "custom": [
+    {
+      "name": "AggiornaPanoramica",
+      "title": "Aggiornamento dall’inventario",
+      "description": "Ricalcola il riepilogo e sincronizza la tabella della panoramica senza modificare l’inventario.",
+      "role": "section",
+      "pageId": "dashboard",
+      "position": "top"
+    }
+  ]
 }
