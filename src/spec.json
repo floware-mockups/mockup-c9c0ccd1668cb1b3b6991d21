@@ -81,7 +81,8 @@
           "Sì"
         ]
       ],
-      "form": []
+      "form": [],
+      "chartColumn": 0
     },
     {
       "id": "inventario-pc",
@@ -101,140 +102,87 @@
         "Identificativo",
         "Sistema operativo",
         "CPU",
-        "RAM",
-        "Esito Windows 11 26H2",
-        "Priorità",
-        "Azione consigliata",
-        "CPU verificata"
+        "RAM"
       ],
       "rows": [
         [
           "Lumo-IT-014",
           "Windows 10",
           "Intel Core i5-8500T0:03:00Z FINAL 代.",
-          "8 GB",
-          "Da verificare",
-          "Alta",
-          "Raccogliere modello CPU e controllare requisiti",
-          "Sì"
+          "1 GB"
         ],
         [
           "Vela-IT-022",
           "Windows 10",
           "Intel Core i3-8100",
-          "4 GB",
-          "Non compatibile secondo verifica preliminare",
-          "Alta",
-          "Valutare sostituzione",
-          "No"
+          "2 GB"
         ],
         [
           "Nubi-IT-031",
           "Windows 11",
           "Intel Core i5-10400",
-          "16 GB",
-          "Compatibile secondo verifica preliminare",
-          "Media",
-          "Pianificare aggiornamento dopo convalida",
-          "Sì"
+          "4 GB"
         ],
         [
           "Lumo-IT-008",
           "Windows 11",
           "Intel Core i5-8500",
-          "16 GB",
-          "Compatibile secondo verifica preliminare",
-          "Bassa",
-          "Mantenere e monitorare",
-          "No"
+          "8 GB"
         ],
         [
           "Vela-IT-017",
           "Windows 10",
           "Intel Core i5-8500",
-          "8 GB",
-          "Da verificare",
-          "Alta",
-          "Raccogliere modello CPU e controllare requisiti",
-          "Sì"
+          "16 GB"
         ],
         [
           "Nubi-IT-006",
           "Windows 10",
           "Intel Core i5-10400",
-          "16 GB",
-          "Compatibile secondo verifica preliminare",
-          "Media",
-          "Pianificare aggiornamento dopo convalida",
-          "No"
+          "32 GB"
         ],
         [
           "Lumo-IT-025",
           "Windows 10",
           "Intel Core i3-8100",
-          "8 GB",
-          "Non compatibile secondo verifica preliminare",
-          "Alta",
-          "Valutare sostituzione",
-          "Sì"
+          "64 GB"
         ],
         [
           "Vela-IT-004",
           "Windows 11",
           "Intel Core i5-10400",
-          "8 GB",
-          "Compatibile secondo verifica preliminare",
-          "Bassa",
-          "Mantenere e monitorare",
-          "No"
+          "128 GB"
         ],
         [
           "Nubi-IT-019",
           "Windows 10",
           "Intel Core i5-8500",
-          "8 GB",
-          "Da verificare",
-          "Media",
-          "Completare i dati tecnici",
-          "Sì"
+          "8 GB"
         ],
         [
           "Lumo-IT-011",
           "Windows 10",
           "Intel Core i5-10400",
-          "16 GB",
-          "Compatibile secondo verifica preliminare",
-          "Media",
-          "Pianificare aggiornamento dopo convalida",
-          "No"
+          "16 GB"
         ],
         [
           "Vela-IT-029",
           "Windows 11",
           "Intel Core i5-8500",
-          "16 GB",
-          "Compatibile secondo verifica preliminare",
-          "Bassa",
-          "Mantenere e monitorare",
-          "Sì"
+          "16 GB"
         ],
         [
           "Nubi-IT-013",
           "Windows 10",
           "Intel Core i3-8100",
-          "4 GB",
-          "Non compatibile secondo verifica preliminare",
-          "Alta",
-          "Valutare sostituzione",
-          "No"
+          "4 GB"
         ]
       ],
       "form": [
         "Identificativo",
         "Sistema operativo",
         "CPU",
-        "RAM",
-        "Esito Windows 11 26H2"
+        "RAM"
       ]
     },
     {
@@ -289,8 +237,7 @@
         "Identificativo",
         "Sistema operativo",
         "CPU",
-        "RAM",
-        "Esito controllo dati"
+        "RAM"
       ]
     },
     {
