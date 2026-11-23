@@ -31,7 +31,8 @@
         "Sistema operativo",
         "CPU",
         "RAM",
-        "Esito Windows 11 26H2"
+        "Esito Windows 11 26H2",
+        "CPU verificata"
       ],
       "rows": [
         [
@@ -40,7 +41,8 @@
           "Windows 10",
           "CPU non verificata",
           "8 GB",
-          "Da verificare: modello CPU e requisiti mancanti"
+          "Da verificare: modello CPU e requisiti mancanti",
+          "Sì"
         ],
         [
           "Alta",
@@ -48,7 +50,8 @@
           "Windows 10",
           "CPU non verificata",
           "4 GB",
-          "Non compatibile: RAM inferiore al requisito indicativo"
+          "Non compatibile: RAM inferiore al requisito indicativo",
+          "No"
         ],
         [
           "Media",
@@ -56,7 +59,8 @@
           "Windows 11",
           "CPU verificata",
           "16 GB",
-          "Compatibile secondo verifica preliminare"
+          "Compatibile secondo verifica preliminare",
+          "Sì"
         ],
         [
           "Bassa",
@@ -64,7 +68,8 @@
           "Windows 11",
           "CPU verificata",
           "16 GB",
-          "Compatibile secondo verifica preliminare"
+          "Compatibile secondo verifica preliminare",
+          "No"
         ],
         [
           "Alta",
@@ -72,7 +77,8 @@
           "Windows 10",
           "CPU non verificata",
           "8 GB",
-          "Da verificare: modello CPU e requisiti mancanti"
+          "Da verificare: modello CPU e requisiti mancanti",
+          "Sì"
         ]
       ],
       "form": []
@@ -98,123 +104,137 @@
         "RAM",
         "Esito Windows 11 26H2",
         "Priorità",
-        "Azione consigliata"
+        "Azione consigliata",
+        "CPU verificata"
       ],
       "rows": [
         [
           "Lumo-IT-014",
           "Windows 10",
-          "Intel Core i5-8500 T0:03:00Z FINAL 代.",
+          "Intel Core i5-8500T0:03:00Z FINAL 代.",
           "8 GB",
           "Da verificare",
           "Alta",
-          "Raccogliere modello CPU e controllare requisiti"
+          "Raccogliere modello CPU e controllare requisiti",
+          "Sì"
         ],
         [
           "Vela-IT-022",
           "Windows 10",
-          "CPU non verificata",
+          "Intel Core i3-8100",
           "4 GB",
           "Non compatibile secondo verifica preliminare",
           "Alta",
-          "Valutare sostituzione"
+          "Valutare sostituzione",
+          "No"
         ],
         [
           "Nubi-IT-031",
           "Windows 11",
-          "CPU verificata",
+          "Intel Core i5-10400",
           "16 GB",
           "Compatibile secondo verifica preliminare",
           "Media",
-          "Pianificare aggiornamento dopo convalida"
+          "Pianificare aggiornamento dopo convalida",
+          "Sì"
         ],
         [
           "Lumo-IT-008",
           "Windows 11",
-          "CPU verificata",
+          "Intel Core i5-8500",
           "16 GB",
           "Compatibile secondo verifica preliminare",
           "Bassa",
-          "Mantenere e monitorare"
+          "Mantenere e monitorare",
+          "No"
         ],
         [
           "Vela-IT-017",
           "Windows 10",
-          "CPU non verificata",
+          "Intel Core i5-8500",
           "8 GB",
           "Da verificare",
           "Alta",
-          "Raccogliere modello CPU e controllare requisiti"
+          "Raccogliere modello CPU e controllare requisiti",
+          "Sì"
         ],
         [
           "Nubi-IT-006",
           "Windows 10",
-          "CPU verificata",
+          "Intel Core i5-10400",
           "16 GB",
           "Compatibile secondo verifica preliminare",
           "Media",
-          "Pianificare aggiornamento dopo convalida"
+          "Pianificare aggiornamento dopo convalida",
+          "No"
         ],
         [
           "Lumo-IT-025",
           "Windows 10",
-          "CPU verificata",
+          "Intel Core i3-8100",
           "8 GB",
           "Non compatibile secondo verifica preliminare",
           "Alta",
-          "Valutare sostituzione"
+          "Valutare sostituzione",
+          "Sì"
         ],
         [
           "Vela-IT-004",
           "Windows 11",
-          "CPU verificata",
+          "Intel Core i5-10400",
           "8 GB",
           "Compatibile secondo verifica preliminare",
           "Bassa",
-          "Mantenere e monitorare"
+          "Mantenere e monitorare",
+          "No"
         ],
         [
           "Nubi-IT-019",
           "Windows 10",
-          "CPU non verificata",
+          "Intel Core i5-8500",
           "8 GB",
           "Da verificare",
           "Media",
-          "Completare i dati tecnici"
+          "Completare i dati tecnici",
+          "Sì"
         ],
         [
           "Lumo-IT-011",
           "Windows 10",
-          "CPU verificata",
+          "Intel Core i5-10400",
           "16 GB",
           "Compatibile secondo verifica preliminare",
           "Media",
-          "Pianificare aggiornamento dopo convalida"
+          "Pianificare aggiornamento dopo convalida",
+          "No"
         ],
         [
           "Vela-IT-029",
           "Windows 11",
-          "CPU verificata",
+          "Intel Core i5-8500",
           "16 GB",
           "Compatibile secondo verifica preliminare",
           "Bassa",
-          "Mantenere e monitorare"
+          "Mantenere e monitorare",
+          "Sì"
         ],
         [
           "Nubi-IT-013",
           "Windows 10",
-          "CPU verificata",
+          "Intel Core i3-8100",
           "4 GB",
           "Non compatibile secondo verifica preliminare",
           "Alta",
-          "Valutare sostituzione"
+          "Valutare sostituzione",
+          "No"
         ]
       ],
       "form": [
         "Identificativo",
         "Sistema operativo",
         "CPU",
-        "RAM"
+        "RAM",
+        "Esito Windows 11 26H2"
       ]
     },
     {
@@ -236,7 +256,8 @@
         "Sistema operativo",
         "CPU",
         "RAM",
-        "Esito controllo dati"
+        "Esito controllo dati",
+        "CPU verificata"
       ],
       "rows": [
         [
@@ -244,28 +265,32 @@
           "Windows 10",
           "Da compilare con il modello CPU",
           "8 GB",
-          "CPU da verificare"
+          "CPU da verificare",
+          "Sì"
         ],
         [
           "Vela-IT-022",
           "Windows 10",
           "Da compilare con il modello CPU",
           "4 GB",
-          "CPU da verificare"
+          "CPU da verificare",
+          "No"
         ],
         [
           "Nubi-IT-031",
           "Windows 11",
           "Da compilare con il modello CPU",
           "16 GB",
-          "CPU da verificare"
+          "CPU da verificare",
+          "Sì"
         ]
       ],
       "form": [
         "Identificativo",
         "Sistema operativo",
         "CPU",
-        "RAM"
+        "RAM",
+        "Esito controllo dati"
       ]
     },
     {
@@ -293,7 +318,8 @@
         "RAM",
         "Esito Windows 11 26H2",
         "Priorità",
-        "Azione consigliata"
+        "Azione consigliata",
+        "CPU verificata"
       ],
       "rows": [
         [
@@ -303,7 +329,8 @@
           "8 GB",
           "Da verificare",
           "Alta",
-          "Acquisire modello CPU e completare i controlli"
+          "Acquisire modello CPU e completare i controlli",
+          "Sì"
         ],
         [
           "Vela-IT-022",
@@ -312,7 +339,8 @@
           "4 GB",
           "Non compatibile: RAM sotto il requisito indicativo",
           "Alta",
-          "Valutare sostituzione; verificare requisiti completi"
+          "Valutare sostituzione; verificare requisiti completi",
+          "No"
         ],
         [
           "Nubi-IT-031",
@@ -321,7 +349,8 @@
           "16 GB",
           "Compatibile secondo verifica preliminare",
           "Media",
-          "Confermare requisiti e pianificare aggiornamento"
+          "Confermare requisiti e pianificare aggiornamento",
+          "Sì"
         ],
         [
           "Lumo-IT-008",
@@ -330,7 +359,8 @@
           "16 GB",
           "Compatibile secondo verifica preliminare",
           "Bassa",
-          "Mantenere e monitorare"
+          "Mantenere e monitorare",
+          "No"
         ],
         [
           "Vela-IT-017",
@@ -339,7 +369,8 @@
           "8 GB",
           "Da verificare",
           "Alta",
-          "Acquisire modello CPU e completare i controlli"
+          "Acquisire modello CPU e completare i controlli",
+          "Sì"
         ]
       ],
       "form": []
@@ -352,8 +383,8 @@
   "custom": [
     {
       "name": "AggiornaPanoramica",
-      "title": "Aggiornamento dall’inventario",
-      "description": "Ricalcola il riepilogo e sincronizza la tabella della panoramica senza modificare l’inventario.",
+      "title": "Scansione dimostrativa e panoramica",
+      "description": "Rivaluta i dati in memoria, segnala anomalie e sincronizza la panoramica senza aggiungere colonne.",
       "role": "section",
       "pageId": "dashboard",
       "position": "top"
