@@ -1,0 +1,352 @@
+{
+  "title": "Gestione priorità di aggiornamento e sostituzione PC",
+  "description": "Prototipo per l’ufficio IT: inserisci manualmente i dispositivi o importa un CSV, valuta i requisiti configurabili per Windows 11 26H2 e definisci priorità di aggiornamento o sostituzione. La verifica è indicativa e va confermata con i requisiti ufficiali disponibili al momento della valutazione.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dell’inventario e delle priorità operative. La verifica di compatibilità è una valutazione preliminare basata sui dati inseriti, non una certificazione del produttore.",
+      "metrics": [
+        {
+          "label": "PC inventariati",
+          "value": "12"
+        },
+        {
+          "label": "Compatibili secondo verifica preliminare",
+          "value": "5"
+        },
+        {
+          "label": "Da verificare",
+          "value": "3"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Priorità",
+        "Identificativo",
+        "Sistema operativo",
+        "CPU",
+        "RAM",
+        "Esito Windows 11 26H2"
+      ],
+      "rows": [
+        [
+          "Alta",
+          "Lumo-IT-014",
+          "Windows 10",
+          "CPU non verificata",
+          "8 GB",
+          "Da verificare: modello CPU e requisiti mancanti"
+        ],
+        [
+          "Alta",
+          "Vela-IT-022",
+          "Windows 10",
+          "CPU non verificata",
+          "4 GB",
+          "Non compatibile: RAM inferiore al requisito indicativo"
+        ],
+        [
+          "Media",
+          "Nubi-IT-031",
+          "Windows 11",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare"
+        ],
+        [
+          "Bassa",
+          "Lumo-IT-008",
+          "Windows 11",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare"
+        ],
+        [
+          "Alta",
+          "Vela-IT-017",
+          "Windows 10",
+          "CPU non verificata",
+          "8 GB",
+          "Da verificare: modello CPU e requisiti mancanti"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "inventario-pc",
+      "title": "Inventario PC",
+      "description": "Consulta, filtra e aggiorna l’inventario. Per importazioni CSV, usa le stesse intestazioni dei campi mostrati e verifica i risultati prima di registrarli.",
+      "metrics": [
+        {
+          "label": "Dispositivi registrati",
+          "value": "12"
+        },
+        {
+          "label": "Con dati incompleti",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Identificativo",
+        "Sistema operativo",
+        "CPU",
+        "RAM",
+        "Esito Windows 11 26H2",
+        "Priorità",
+        "Azione consigliata"
+      ],
+      "rows": [
+        [
+          "Lumo-IT-014",
+          "Windows 10",
+          "CPU non verificata",
+          "8 GB",
+          "Da verificare",
+          "Alta",
+          "Raccogliere modello CPU e controllare requisiti"
+        ],
+        [
+          "Vela-IT-022",
+          "Windows 10",
+          "CPU non verificata",
+          "4 GB",
+          "Non compatibile secondo verifica preliminare",
+          "Alta",
+          "Valutare sostituzione"
+        ],
+        [
+          "Nubi-IT-031",
+          "Windows 11",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare",
+          "Media",
+          "Pianificare aggiornamento dopo convalida"
+        ],
+        [
+          "Lumo-IT-008",
+          "Windows 11",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare",
+          "Bassa",
+          "Mantenere e monitorare"
+        ],
+        [
+          "Vela-IT-017",
+          "Windows 10",
+          "CPU non verificata",
+          "8 GB",
+          "Da verificare",
+          "Alta",
+          "Raccogliere modello CPU e controllare requisiti"
+        ],
+        [
+          "Nubi-IT-006",
+          "Windows 10",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare",
+          "Media",
+          "Pianificare aggiornamento dopo convalida"
+        ],
+        [
+          "Lumo-IT-025",
+          "Windows 10",
+          "CPU verificata",
+          "8 GB",
+          "Non compatibile secondo verifica preliminare",
+          "Alta",
+          "Valutare sostituzione"
+        ],
+        [
+          "Vela-IT-004",
+          "Windows 11",
+          "CPU verificata",
+          "8 GB",
+          "Compatibile secondo verifica preliminare",
+          "Bassa",
+          "Mantenere e monitorare"
+        ],
+        [
+          "Nubi-IT-019",
+          "Windows 10",
+          "CPU non verificata",
+          "8 GB",
+          "Da verificare",
+          "Media",
+          "Completare i dati tecnici"
+        ],
+        [
+          "Lumo-IT-011",
+          "Windows 10",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare",
+          "Media",
+          "Pianificare aggiornamento dopo convalida"
+        ],
+        [
+          "Vela-IT-029",
+          "Windows 11",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare",
+          "Bassa",
+          "Mantenere e monitorare"
+        ],
+        [
+          "Nubi-IT-013",
+          "Windows 10",
+          "CPU verificata",
+          "4 GB",
+          "Non compatibile secondo verifica preliminare",
+          "Alta",
+          "Valutare sostituzione"
+        ]
+      ],
+      "form": [
+        "Identificativo",
+        "Sistema operativo",
+        "CPU",
+        "RAM"
+      ]
+    },
+    {
+      "id": "importa-csv",
+      "title": "Importa CSV",
+      "description": "Seleziona un file CSV dall’interfaccia del prototipo, controlla l’anteprima e conferma l’importazione. La procedura non invia dati a servizi esterni.",
+      "metrics": [
+        {
+          "label": "Colonne richieste",
+          "value": "4"
+        },
+        {
+          "label": "Righe di esempio da controllare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Identificativo",
+        "Sistema operativo",
+        "CPU",
+        "RAM",
+        "Esito controllo dati"
+      ],
+      "rows": [
+        [
+          "Lumo-IT-014",
+          "Windows 10",
+          "Da compilare con il modello CPU",
+          "8 GB",
+          "CPU da verificare"
+        ],
+        [
+          "Vela-IT-022",
+          "Windows 10",
+          "Da compilare con il modello CPU",
+          "4 GB",
+          "CPU da verificare"
+        ],
+        [
+          "Nubi-IT-031",
+          "Windows 11",
+          "Da compilare con il modello CPU",
+          "16 GB",
+          "CPU da verificare"
+        ]
+      ],
+      "form": [
+        "Identificativo",
+        "Sistema operativo",
+        "CPU",
+        "RAM"
+      ]
+    },
+    {
+      "id": "valuta-priorita",
+      "title": "Valuta compatibilità e priorità",
+      "description": "La verifica preliminare considera i dati disponibili e le regole configurate per la versione 26H2; non presume la compatibilità dalla sola quantità di RAM o dal nome del sistema operativo. Per una valutazione attendibile servono modello CPU e controlli dei requisiti pertinenti, inclusi firmware e sicurezza quando applicabili. Conferma sempre l’esito con le specifiche ufficiali correnti.",
+      "metrics": [
+        {
+          "label": "Compatibili preliminarmente",
+          "value": "5"
+        },
+        {
+          "label": "Non compatibili preliminarmente",
+          "value": "4"
+        },
+        {
+          "label": "Dati insufficienti",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Identificativo",
+        "Sistema operativo",
+        "CPU",
+        "RAM",
+        "Esito Windows 11 26H2",
+        "Priorità",
+        "Azione consigliata"
+      ],
+      "rows": [
+        [
+          "Lumo-IT-014",
+          "Windows 10",
+          "CPU non verificata",
+          "8 GB",
+          "Da verificare",
+          "Alta",
+          "Acquisire modello CPU e completare i controlli"
+        ],
+        [
+          "Vela-IT-022",
+          "Windows 10",
+          "CPU non verificata",
+          "4 GB",
+          "Non compatibile: RAM sotto il requisito indicativo",
+          "Alta",
+          "Valutare sostituzione; verificare requisiti completi"
+        ],
+        [
+          "Nubi-IT-031",
+          "Windows 11",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare",
+          "Media",
+          "Confermare requisiti e pianificare aggiornamento"
+        ],
+        [
+          "Lumo-IT-008",
+          "Windows 11",
+          "CPU verificata",
+          "16 GB",
+          "Compatibile secondo verifica preliminare",
+          "Bassa",
+          "Mantenere e monitorare"
+        ],
+        [
+          "Vela-IT-017",
+          "Windows 10",
+          "CPU non verificata",
+          "8 GB",
+          "Da verificare",
+          "Alta",
+          "Acquisire modello CPU e completare i controlli"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
